@@ -1,7 +1,11 @@
 class main{
 // Sample java code
+class Main {
+    public static void main(String[] args) {
+            Main.showMe("Mayur");
+    }
 
-// code to be written by tanuja
+    // code to be written by tanuja
 static int factorial(int n){
         int factorial = 1;
         int i =1;
@@ -17,5 +21,10 @@ static int factorial(int n){
         System.out.println("Permutation: "+permutation);
     }
 }
+    // Code to be written by P Mayur
 
-// Code to be written by P Mayur
+
+    static String showMe(String name) {
+        return "Hiiii " + name;
+    }
+}
